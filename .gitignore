@@ -1,0 +1,38 @@
+# Build and Dependency Artifacts
+target/
+dist/
+node_modules/
+*.class
+
+# Package Archives
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Environment and Credentials (NEVER COMMIT SECRETS)
+.env
+.env.*
+!.env.example
+credentials
+*.pem
+*.key
+
+# IDE and Editor Cache
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# Operating System & Logs
+*.log
+.DS_Store
+Thumbs.db
+backend_out.log
+backend_err.log
+
